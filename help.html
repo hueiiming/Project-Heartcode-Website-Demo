@@ -3,22 +3,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Help</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="style.css" type="text/css" rel="stylesheet">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-          <a style="font-weight: bold;" class="navbar-brand">Mental Health</a>
+          <a style="font-weight: bold;" class="navbar-brand" href="#">Mental Health</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Information</a>
+                <a class="nav-link" aria-current="page" href="index.html">Information</a>
               </li>
               <div class="vl"></div>
               <li class="nav-item">
@@ -26,25 +28,36 @@
               </li>
               <div class="vl"></div>
               <li class="nav-item">
-                <a class="nav-link" href="help.html">Help</a>
+                <a class="nav-link active" href="help.html">Help</a>
               </li>
             </ul>
           </div>
         </div>
     </nav>
+
     <div id="jumbotron" class="jumbotron jumbotron-fluid">
         <div class="container-text">
-            <img id="depression" src="images/depression.png" width="400px">
+            <lottie-player src="https://assets1.lottiefiles.com/private_files/lf30_of3skn6w.json" background="transparent" speed="1" style="width: 400px; height: 300px; margin: auto; margin-bottom: 100px;" loop autoplay></lottie-player>    
             <div class="text-box">
-                <h2 class="exec"><span class="animation">Depression</span></h2>
-                <p>Depression (major depressive disorder) is a common and serious medical illness that negatively affects how you feel, the way you think and how you act.</p>
-                <button class="myBtn" onclick="location.href='signs-of-depression.html';">Find out more</button>
+                <h2 class="exec"><span class="animation">Get Help</span></h2>
+                <div class="help-box">
+                    <h5>SOS (Samaritans of Singapore)</h5>
+                    <p>Hotline: 1-767 <br>
+                    Availability: Daily - 24 hours</p>
+                    <h5>Care Email</h5>
+                    <p>Email: <a href="mailto: pat@sos.org.sg">pat@sos.org.sg</a><br>
+                    <h5>Care Text</h5>
+                    <a href='https://www.sos.org.sg'>https://www.sos.org.sg</a>
+                        (Accessible via Chatbox function) <br>
+                    Availability: Daily - 24 hours</p>
+                </div>
+                <button class="myBtn" onclick="location.href='https://www.healthhub.sg/a-z/support-groups-and-others/20/call-on-these-when-you-need-help';">Find out more</button>
             </div>
         </div>
     </div>
-    
-      <!-- Site footer -->
-      <footer class="site-footer">
+
+    <!-- Site footer -->
+    <footer class="site-footer">
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-6">
@@ -72,5 +85,6 @@
   </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
 </body>
 </html>
