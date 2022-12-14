@@ -1,2 +1,2 @@
 # Project-Heartcode-Website-Demo
-Website link: https://project-heartcode-website-demo.herokuapp.com/index.html
+Website link: https://hueiiming.github.io/Project-Heartcode-Website-Demo/
